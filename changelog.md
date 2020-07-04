@@ -5,13 +5,60 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
+## [1.10.1] - 2020-07-01
+### Added
+- merge ra-barrier
+### Deploy changes
+- change ra-barrier in ra-front (barrierURL) 
 
+## [1.9.5] - 2020-07-01
+### Added
+- Update docs, add info about Azure pipelines
+- Scroll on main angular components
+- Add addr to backend in healthz
+### Deploy changes
+- Prepare new Azure pipeline (for ra-docs)
+
+## [1.9.0] - 2020-07-01
+### Changed
+- Enable quiet mvn build
+### Added
+- Pipeline badges add to Readme.md
+### Deploy changes
+- addr to new HELIKE standard
+
+## [1.8.5] - 2020-07-01
+### Changed
+- Dockerfile (front - rm node_env param)
+### Fixed
+- bug in sidebar (InstanceInfo engine log error)
+### Deploy changes
+- Disable github action
+
+## [1.8.2] - 2020-06-30
+### Added
+- Merge task-creator-feature
+### Deploy changes
+- database change to tebe
+
+## [1.7.1] - 2020-06-17
+### Added
+- Dockerfile (front, back)
+### Changed
+- disable access to pom.xml from healthz
+- some angular packages (downgrade and upgrade)
+- npm babel package added
+
+## [1.5.0] - 2020-05-26
+### Added
+- create documentation /docs
+### Changed
+- extend budget "anyComponentStyle" from 10kB to 100kB
 
 ## [1.0.4] - 2020-05-26
 ### Changed
 - refactoring raptorsRobotsApp to ra-back
 - refactoring angularclinet to ra-front
-
 
 ## [1.0.3] - 2020-05-25
 ### Added
